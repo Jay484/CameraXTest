@@ -99,7 +99,7 @@ class CameraUtil(val context: Context, val contentResolver: ContentResolver){
                         RECORD_AUDIO
                     ) == PackageManager.PERMISSION_GRANTED
                 ) {
-                    withAudioEnabled()
+//                    withAudioEnabled()
                 }
             }
             .start(ContextCompat.getMainExecutor(context)) { recordEvent ->
